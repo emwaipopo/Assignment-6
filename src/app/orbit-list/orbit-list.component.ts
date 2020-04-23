@@ -9,9 +9,11 @@ import { Satellite } from '../satellite';
 export class OrbitListComponent implements OnInit {
   @Input() satellites: Satellite[]; 
 
-  colored: boolean = false;
+  colored: boolean;
 
-  constructor() { }
+  constructor() { 
+    this.colored = false;
+  }
 
   ngOnInit() { }
   
@@ -25,10 +27,5 @@ export class OrbitListComponent implements OnInit {
        }
        return 0;
     });
- }
-
- coloredRow(){
-   this.colored = !this.colored;
-   return(this.colored);
  }
 }

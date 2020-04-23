@@ -17,7 +17,7 @@ table {
 }
 
 .header-row {
-    background: rgb(8, 121, 4);
+    background: rgb(140, 111, 219);
     color: #fff
 }
 
@@ -27,6 +27,6 @@ th, td {
     padding: 6px;
 }
 
-.rows {
-    background-color:rgb(139, 160, 22);
+tr:nth-child(even) {
+    background-color: #06e0f0;
 }
