@@ -13,11 +13,11 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #dad8d8;
+  background: #bacad6;
 }
 
 .header-row {
-    background: #34495E;
+    background: rgb(8, 121, 4);
     color: #fff
 }
 
@@ -25,4 +25,8 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+.rows {
+    background-color:rgb(139, 160, 22);
 }
